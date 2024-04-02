@@ -17,7 +17,7 @@ Use sequential action.
 
 Use MAX_STATIC_DATA of 360000.
 
-Release along with an interpreter,[ cover art,] the source text, and an introductory postcard.
+Release along with an interpreter, cover art, the source text, and an introductory postcard.
 
 Part 2 - Extensions
 
@@ -33,13 +33,6 @@ Include Reactable Quips by Michael Martin.
 Chapter 2 - Not in the game (not for release)
 
 Include Response Assistant by Aaron Reed. Include Object Response Tests by Juhana Leinonen.
-
-[Consider:
-Simple Spelling by Alice Grove
-Reversed Persuasion Correction by Juhana Leinonen
-Large Game Speedup by Nathanael Nerode
-Scope Control by Ron Newcomb
-Include Implicit Actions by Eric Eve]
 
 Part 3 - Testing (not for release)
 
@@ -333,64 +326,6 @@ Understand "arm/arms" or "leg/legs" or "hair" or "face" or "me" or "groin/crotch
 Book 3 - Things and kinds
 
 Part 1 - Kinds of things
-
-[Instead of attacking or burning or cutting a noun:
-
-Instead of consulting a noun about:
-	
-Instead of looking under a noun:
-	
-Instead of drinking or eating or tasting a noun:
-	
-Instead of smelling a noun:
-	
-Instead of climbing a noun:
-	
-Instead of giving a noun to someone:
-	
-Instead of giving something to a noun:
-	
-Instead of showing a noun to something:
-	
-Instead of showing something to a noun:
-
-Instead of dropping a noun:
-	
-Instead of inserting a noun into:
-	
-Instead of putting a noun on:
-
-Instead of removing a noun from:
-
-Instead of locking a noun with:
-
-Instead of unlocking a noun with:
-	
-Instead of listening to a noun:
-
-Instead of opening a noun:
-
-Instead of closing a noun:
-	
-Instead of switching on a noun:
-
-Instead of switching off a noun:
-	
-Instead of taking a noun:
-	
-Instead of puching a noun to:
-	
-Instead of throwing a noun at someting:
-	
-Instead of touching or rubbing a noun:
-	
-Instead of tying a noun to something:
-	
-Instead of tying something to a noun:
-
-Instead of wearing a noun:
-
-Instead of taking off a noun:]
 
 Chapter 1 - LED ticker signs
 
@@ -2436,7 +2371,8 @@ Book 1 - Things
 -	62	-	64	-	-	-
 -	-	73	-	75	-	77
 -	-	-	84	-	86	-
--	92	93	-	-	-	-]
+-	92	93	-	-	-	-
+NOTE: Looking at it in 2024, I'm not 100% certain what the numbers that are left here represent, but I suspect they're the rooms that don't contain any special features at the start of the game.]
 
 Part 1 - John Everyman
 
@@ -2905,7 +2841,8 @@ Chapter 1 - Signs
 13	1	4	1	2
 14	2	1	3	4
 15	3	2	4	1
-16	4	3	2	3]
+16	4	3	2	3
+NOTE: The message each sign displays depends on the seed. The pattern above applies only to the bad advice, good advice, and cruel comment signs—the signs that give directions must, of course, react to the layout of the hallways surrounding them.]
 
 Section 1 - Unhelpful signs with bad directions
 
@@ -3238,63 +3175,7 @@ Instead of taking the graphic tee: say "You'd have to move the corpse to take it
 The cargo shorts are part of Corpse1. Understand "short" or "pair" or "of" or "pocket/pockets" or "clothing/clothes" as the cargo shorts.
 The description of the cargo shorts is "CARGO SHORTS DESC PLACEHOLDER."
 
-[Instead of attacking or burning or cutting a noun:
-
-Instead of consulting a noun about:
-	
-Instead of looking under a noun:
-	
-Instead of drinking or eating or tasting a noun:
-	
-Instead of smelling a noun:
-	
-Instead of climbing a noun:
-	
-Instead of giving a noun to someone:
-	
-Instead of giving something to a noun:
-	
-Instead of showing a noun to something:
-	
-Instead of showing something to a noun:
-
-Instead of dropping a noun:
-	
-Instead of inserting a noun into:
-	
-Instead of putting a noun on:
-
-Instead of removing a noun from:
-
-Instead of locking a noun with:
-
-Instead of unlocking a noun with:
-	
-Instead of listening to a noun:
-
-Instead of opening a noun:
-
-Instead of closing a noun:
-	
-Instead of switching on a noun:
-
-Instead of switching off a noun:
-	
-Instead of taking a noun:
-	
-Instead of puching a noun to:
-	
-Instead of throwing a noun at someting:
-	
-Instead of touching or rubbing a noun:
-	
-Instead of tying a noun to something:
-	
-Instead of tying something to a noun:
-
-Instead of wearing a noun:
-
-Instead of taking off a noun:]
+[NOTE: Here in the code was originally a copy of all the potential "Instead" rules for an individual object. I didn't get around to writing those responses for the cargo shorts before deciding against including the corpses altogether, so that list has been elided for the sake of readability.]
 
 The mildew is part of the graphic tee. Understand "mold" or "damp" or "rot" or "fungus" as the mildew.
 The description of the mildew is "It's a green-brown color. It looks slimy."
@@ -3663,6 +3544,8 @@ Instead of giving something to the time capsule: say "The time capsule's content
 Instead of listening to the time capsule: say "It doesn't even try to make excuses."
 
 Instead of touching or rubbing the time capsule: say "The plastic feels rough and cheap."
+
+[NOTE: The time capsule is empty.]
 
 Section 3 - Charred-trunk
 
@@ -4450,6 +4333,8 @@ Understand "4/four" or "4th/fourth" as grave4.
 A tombstone called stone4 is part of the graveyard. The printed name is "fourth tombstone". Stone4 marks grave4.
 Understand "4/four" or "4th/fourth" as stone4.
 The message of stone4 is "When it began, they crowded aroun the doors. But no one outside cared enough to let them out before their skin began to peel."
+
+[NOTE: This grave (and the lighter associated with it) was meant to reference the Triangle Shirtwaist Factory Fire, and workers' rights more broadly. Perhaps it was too subtle, because I don't think I've seen anyone pick up on it.]
 
 Section 7 - Rest-count
 
